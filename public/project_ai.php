@@ -131,7 +131,7 @@ Hãy phân tích chi tiết:
 ";
 
         // GỌI OPENROUTER FREE
-        $api_key = "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";
+        $api_key = "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";
         $url = "https://openrouter.ai/api/v1/chat/completions";
 
         $payload = [

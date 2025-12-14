@@ -10,7 +10,7 @@ if (isset($_SESSION['user'])) {
     $stmt->execute();
     $stmt->close();
 }
-add_log($conn, $uid, "logout", "logout", "Đăng xuất hệ thống");
+
 session_destroy();
 header('Location: login.php');
 exit;

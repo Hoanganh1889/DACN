@@ -54,6 +54,11 @@ $teams = $conn->query("
 body {
     background: #f3f4f6;
     font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, rgba(0,150,200,0.5), rgba(0,0,70,0.4)),
+                  url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: blur(10px);
 }
 
 .container-box {

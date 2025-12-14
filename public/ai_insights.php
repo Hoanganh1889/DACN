@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
 
         // GỌI OPENROUTER
-        $api_key = "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";
+        $api_key = "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";
 
         $url = "https://openrouter.ai/api/v1/chat/completions";
 
@@ -99,6 +99,11 @@ $logs = $conn->query("
 body {
     background: #f3f4f6;
     font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, rgba(0,150,200,0.5), rgba(0,0,70,0.4)),
+                  url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: blur(10px);
 }
 
 .page-container {

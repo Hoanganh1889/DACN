@@ -28,8 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           'email' => $row['email'],
           'role' => $row['role']
         ];
-        add_log($conn, $uid, "login", "login", "Đăng nhập thành công");
-
         header('Location: dashboard.php');
         exit;
       } else {
