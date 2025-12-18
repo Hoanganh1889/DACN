@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
 
         // GỌI OPENROUTER
-        $api_key = "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";
+        $api_key = "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";
 
         $url = "https://openrouter.ai/api/v1/chat/completions";
 
